@@ -7,7 +7,7 @@ from email.mime.base import MIMEBase
 from email import encoders
 from jinja2 import Template
 
-def send_email(name, email, attachment_path, background, attachment_type):
+def send_email(name, email, attachment_path, background, attachment_type,template_file):
     try:
         context = ssl.create_default_context()
         with smtplib.SMTP(config.SMTP_SERVER, config.SMTP_PORT) as server:
@@ -19,7 +19,7 @@ def send_email(name, email, attachment_path, background, attachment_type):
             message['To'] = email
             message['Subject'] = "Professional Introduction and Attachment"
             
-            with open('templates/email_template.html', 'r') as template_file:
+            with open(f'templates/{template_file}', 'r') as template_file:
                 template = Template(template_file.read())
                 body = template.render(name=name, background=background, attachment_type=attachment_type)
             
