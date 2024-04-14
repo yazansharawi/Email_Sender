@@ -1,7 +1,8 @@
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import config
-from email_utils import send_email
+from utilities.email_utils import send_email
+from utilities.whatsapp_utils import send_whatsapp_message
 import logging
 
 logging.basicConfig(filename='/Users/yazansharawi/Desktop/email_sender/main_execution.log', level=logging.INFO) 
@@ -12,6 +13,8 @@ creds = ServiceAccountCredentials.from_json_keyfile_name('google_sheets_credenti
 gspread_client = gspread.authorize(creds)
 sheet = gspread_client.open_by_key(config.SHEET_KEY).sheet1
 data = sheet.get_all_records()
+
+WHATSAPP_RECIPIENT_NUMBER = config.WHATSAPP_RECIPIENT_NUMBER
 
 email_count = 0
 for index, person in enumerate(data, start=2):
@@ -38,6 +41,8 @@ for index, person in enumerate(data, start=2):
             send_email(name, email, attachment_path, background, attachment_type, template_file)
             sheet.update_cell(index, 3, "Sent") 
             email_count += 1
+            message_text = f"Email sent to {name} ({email}) with {template_file}"
+            send_whatsapp_message(WHATSAPP_RECIPIENT_NUMBER, message_text)
 
     except Exception as e:
         if current_status == 'Sent':
