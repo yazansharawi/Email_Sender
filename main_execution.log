@@ -4,3 +4,96 @@ INFO:root:Started main.py execution
 INFO:root:Started main.py execution
 INFO:root:Started main.py execution
 INFO:root:Started main.py execution
+INFO:root:Started main.py execution
+INFO:twilio.http_client:-- BEGIN Twilio API Request --
+INFO:twilio.http_client:POST Request: https://api.twilio.com/2010-04-01/Accounts/AC14773bc210fbce7acda42159e0f58c81/Messages.json
+INFO:twilio.http_client:Headers:
+INFO:twilio.http_client:User-Agent : twilio-python/9.0.4 (Darwin x86_64) Python/3.9.6
+INFO:twilio.http_client:X-Twilio-Client : python-9.0.4
+INFO:twilio.http_client:Accept-Charset : utf-8
+INFO:twilio.http_client:Content-Type : application/x-www-form-urlencoded
+INFO:twilio.http_client:Accept : application/json
+INFO:twilio.http_client:-- END Twilio API Request --
+INFO:twilio.http_client:Response Status Code: 201
+INFO:twilio.http_client:Response Headers: {'Date': 'Sun, 14 Apr 2024 10:08:07 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '846', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ22aae4a42cbc125a0ff43ea979018786', 'Twilio-Request-Duration': '131', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+INFO:twilio.http_client:-- BEGIN Twilio API Request --
+INFO:twilio.http_client:POST Request: https://api.twilio.com/2010-04-01/Accounts/AC14773bc210fbce7acda42159e0f58c81/Messages.json
+INFO:twilio.http_client:Headers:
+INFO:twilio.http_client:User-Agent : twilio-python/9.0.4 (Darwin x86_64) Python/3.9.6
+INFO:twilio.http_client:X-Twilio-Client : python-9.0.4
+INFO:twilio.http_client:Accept-Charset : utf-8
+INFO:twilio.http_client:Content-Type : application/x-www-form-urlencoded
+INFO:twilio.http_client:Accept : application/json
+INFO:twilio.http_client:-- END Twilio API Request --
+INFO:twilio.http_client:Response Status Code: 201
+INFO:twilio.http_client:Response Headers: {'Date': 'Sun, 14 Apr 2024 10:08:11 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '852', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ99007bb7642e0213788949ad1c95c907', 'Twilio-Request-Duration': '104', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+INFO:root:Started main.py execution
+INFO:root:Started main.py execution
+INFO:twilio.http_client:-- BEGIN Twilio API Request --
+INFO:twilio.http_client:POST Request: https://api.twilio.com/2010-04-01/Accounts/AC14773bc210fbce7acda42159e0f58c81/Messages.json
+INFO:twilio.http_client:Headers:
+INFO:twilio.http_client:User-Agent : twilio-python/9.0.4 (Darwin x86_64) Python/3.9.6
+INFO:twilio.http_client:X-Twilio-Client : python-9.0.4
+INFO:twilio.http_client:Accept-Charset : utf-8
+INFO:twilio.http_client:Content-Type : application/x-www-form-urlencoded
+INFO:twilio.http_client:Accept : application/json
+INFO:twilio.http_client:-- END Twilio API Request --
+INFO:twilio.http_client:Response Status Code: 201
+INFO:twilio.http_client:Response Headers: {'Date': 'Sun, 14 Apr 2024 10:11:29 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '847', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQa5f52ac2518977083a49d63566c26a01', 'Twilio-Request-Duration': '101', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+INFO:twilio.http_client:-- BEGIN Twilio API Request --
+INFO:twilio.http_client:POST Request: https://api.twilio.com/2010-04-01/Accounts/AC14773bc210fbce7acda42159e0f58c81/Messages.json
+INFO:twilio.http_client:Headers:
+INFO:twilio.http_client:User-Agent : twilio-python/9.0.4 (Darwin x86_64) Python/3.9.6
+INFO:twilio.http_client:X-Twilio-Client : python-9.0.4
+INFO:twilio.http_client:Accept-Charset : utf-8
+INFO:twilio.http_client:Content-Type : application/x-www-form-urlencoded
+INFO:twilio.http_client:Accept : application/json
+INFO:twilio.http_client:-- END Twilio API Request --
+INFO:twilio.http_client:Response Status Code: 201
+INFO:twilio.http_client:Response Headers: {'Date': 'Sun, 14 Apr 2024 10:11:33 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '853', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ7d9f738ef84f2c98ce546d936ec6f753', 'Twilio-Request-Duration': '108', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+INFO:root:Started main.py execution
+INFO:twilio.http_client:-- BEGIN Twilio API Request --
+INFO:twilio.http_client:POST Request: https://api.twilio.com/2010-04-01/Accounts/AC14773bc210fbce7acda42159e0f58c81/Messages.json
+INFO:twilio.http_client:Headers:
+INFO:twilio.http_client:User-Agent : twilio-python/9.0.4 (Darwin x86_64) Python/3.9.6
+INFO:twilio.http_client:X-Twilio-Client : python-9.0.4
+INFO:twilio.http_client:Accept-Charset : utf-8
+INFO:twilio.http_client:Content-Type : application/x-www-form-urlencoded
+INFO:twilio.http_client:Accept : application/json
+INFO:twilio.http_client:-- END Twilio API Request --
+INFO:twilio.http_client:Response Status Code: 201
+INFO:twilio.http_client:Response Headers: {'Date': 'Sun, 14 Apr 2024 10:15:20 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '852', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ58cccbdac8164f3e690ca7fcb95b0ba5', 'Twilio-Request-Duration': '120', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+INFO:twilio.http_client:-- BEGIN Twilio API Request --
+INFO:twilio.http_client:POST Request: https://api.twilio.com/2010-04-01/Accounts/AC14773bc210fbce7acda42159e0f58c81/Messages.json
+INFO:twilio.http_client:Headers:
+INFO:twilio.http_client:User-Agent : twilio-python/9.0.4 (Darwin x86_64) Python/3.9.6
+INFO:twilio.http_client:X-Twilio-Client : python-9.0.4
+INFO:twilio.http_client:Accept-Charset : utf-8
+INFO:twilio.http_client:Content-Type : application/x-www-form-urlencoded
+INFO:twilio.http_client:Accept : application/json
+INFO:twilio.http_client:-- END Twilio API Request --
+INFO:twilio.http_client:Response Status Code: 201
+INFO:twilio.http_client:Response Headers: {'Date': 'Sun, 14 Apr 2024 10:15:24 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '853', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQd3138267994de488faf2f5a31424b9e6', 'Twilio-Request-Duration': '92', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+INFO:root:Started main.py execution
+INFO:twilio.http_client:-- BEGIN Twilio API Request --
+INFO:twilio.http_client:POST Request: https://api.twilio.com/2010-04-01/Accounts/AC14773bc210fbce7acda42159e0f58c81/Messages.json
+INFO:twilio.http_client:Headers:
+INFO:twilio.http_client:User-Agent : twilio-python/9.0.4 (Darwin x86_64) Python/3.9.6
+INFO:twilio.http_client:X-Twilio-Client : python-9.0.4
+INFO:twilio.http_client:Accept-Charset : utf-8
+INFO:twilio.http_client:Content-Type : application/x-www-form-urlencoded
+INFO:twilio.http_client:Accept : application/json
+INFO:twilio.http_client:-- END Twilio API Request --
+INFO:twilio.http_client:Response Status Code: 201
+INFO:twilio.http_client:Response Headers: {'Date': 'Sun, 14 Apr 2024 10:16:20 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '853', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ3136747924c40df096b3ea27227c0ccf', 'Twilio-Request-Duration': '95', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+INFO:twilio.http_client:-- BEGIN Twilio API Request --
+INFO:twilio.http_client:POST Request: https://api.twilio.com/2010-04-01/Accounts/AC14773bc210fbce7acda42159e0f58c81/Messages.json
+INFO:twilio.http_client:Headers:
+INFO:twilio.http_client:User-Agent : twilio-python/9.0.4 (Darwin x86_64) Python/3.9.6
+INFO:twilio.http_client:X-Twilio-Client : python-9.0.4
+INFO:twilio.http_client:Accept-Charset : utf-8
+INFO:twilio.http_client:Content-Type : application/x-www-form-urlencoded
+INFO:twilio.http_client:Accept : application/json
+INFO:twilio.http_client:-- END Twilio API Request --
+INFO:twilio.http_client:Response Status Code: 201
+INFO:twilio.http_client:Response Headers: {'Date': 'Sun, 14 Apr 2024 10:16:23 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '854', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQe7d10f0bfc4274590e484d7408f87280', 'Twilio-Request-Duration': '103', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
