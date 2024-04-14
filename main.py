@@ -27,8 +27,10 @@ for index, person in enumerate(data, start=2):
             template_file = 'main-email.html'
         elif current_status == 'Sent':
             template_file = 'follow-up-1.html'
+            sheet.update_cell(index, 4, "Sent") 
         elif current_status == 'Follow-up-1':
             template_file = 'follow-up-2.html'
+            sheet.update_cell(index, 5, "Sent")
         else:
             template_file = None
 
