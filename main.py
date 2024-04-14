@@ -2,6 +2,10 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import config
 from email_utils import send_email
+import logging
+
+logging.basicConfig(filename='/Users/yazansharawi/Desktop/email_sender/main_execution.log', level=logging.INFO) 
+logging.info('Started main.py execution')
 
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
 creds = ServiceAccountCredentials.from_json_keyfile_name('google_sheets_credentials.json', scope)
@@ -13,16 +17,36 @@ email_count = 0
 for index, person in enumerate(data, start=2):
     name = person['Name']
     email = person['Email']
-    attachment_path = 'files/catalog.pdf'
+    attachment_path = 'files/catalog.pdf' 
     background = "[brief background/experience]"
     attachment_type = "resume/sales portfolio [choose one]"
-    
+    current_status = person.get('Status', 'Not Sent')
+
     try:
-        send_email(name, email, attachment_path, background, attachment_type)
-        sheet.update_cell(index, 3, "Sent") 
-        email_count += 1
+        if current_status == 'Not Sent':
+            template_file = 'main-email.html'
+        elif current_status == 'Sent':
+            template_file = 'follow-up-1.html'
+            sheet.update_cell(index, 4, "Sent") 
+        elif current_status == 'Follow-up-1':
+            template_file = 'follow-up-2.html'
+            sheet.update_cell(index, 5, "Sent")
+        else:
+            template_file = None
+
+        if template_file:
+            send_email(name, email, attachment_path, background, attachment_type, template_file)
+            sheet.update_cell(index, 3, "Sent") 
+            email_count += 1
+
     except Exception as e:
-        sheet.update_cell(index, 3, "Not Sent")
+        if current_status == 'Sent':
+            sheet.update_cell(index, 4, "Follow-up-1") 
+        elif current_status == 'Follow-up-1':
+            sheet.update_cell(index, 5, "Follow-up-2") 
+        else:
+            sheet.update_cell(index, 3, "Not Sent")
+
         print(f"Error sending email to {email}: {str(e)}")
 
 print(email_count, "emails sent successfully")
