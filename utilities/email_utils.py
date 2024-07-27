@@ -7,6 +7,7 @@ from email.mime.base import MIMEBase
 from email import encoders
 from jinja2 import Template
 
+
 def send_email(name, email, attachment_path, background, attachment_type,template_file):
     try:
         context = ssl.create_default_context()
